@@ -88,4 +88,4 @@ This project investigates and performs EDA and some data wrangling on a dataset 
 
 ## Acknowledgment
 - Dataset provided by [Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata).
-- Special thanks to The Movie Database (TMDb) for the data.
+- The dataset is modified and provided by [Udacity](https://www.udacity.com) as part of Udacity's Data Analyist Nanodegree
