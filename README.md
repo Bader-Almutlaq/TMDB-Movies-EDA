@@ -1,5 +1,5 @@
 # TMDb Movies EDA
-This project investigates and performs EDA and some data wrangling on a dataset containing information about 10,000 movies collected from The Movie Database (TMDb). This data set is found on [Kagle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata). The dataset was modifiyed by [Udacity](https://www.udacity.com). The goal of this project is to explore the factors that influence the popularity of movies and identify the genres with the highest revenue.
+This project investigates and performs EDA and some data wrangling on a dataset containing information about 10,000 movies collected from The Movie Database (TMDb). This data set is found on [Kagle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata). The dataset was modified by [Udacity](https://www.udacity.com). The goal of this project is to explore the factors that influence the popularity of movies and identify the genres with the highest revenue.
 
 ## Table of Contents
 - [TMDb Movies EDA](#tmdb-movies-eda)
@@ -11,9 +11,6 @@ This project investigates and performs EDA and some data wrangling on a dataset 
   - [Requirements](#requirements)
   - [Installation Instructions](#installation-instructions)
   - [Usage](#usage)
-  - [Results](#results)
-    - [Main Findings](#main-findings)
-    - [Limitations](#limitations)
   - [Acknowledgment](#acknowledgment)
 
 ## Features
@@ -88,16 +85,6 @@ This project investigates and performs EDA and some data wrangling on a dataset 
 1. Ensure the dataset file `tmdb-movies.csv` is in the project directory.
 2. Follow the steps in the `analysis.ipynb` notebook to load, clean, and analyze the data.
 3. Visualizations and insights will be displayed in the notebook.
-
-## Results
-### Main Findings
-1. Budget has a small positive correlation with popularity (correlation coefficient = 0.51).
-2. Vote count shows a strong positive correlation with popularity (correlation coefficient = 0.8).
-3. Action is the genre with the highest revenue despite being fourth in movie count.
-
-### Limitations
-- Correlation does not imply causation; inferential statistics or machine learning could yield better insights.
-- Missing and inconsistent data may impact result accuracy.
 
 ## Acknowledgment
 - Dataset provided by [Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata).
