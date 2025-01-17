@@ -74,12 +74,16 @@ This project investigates and performs EDA and some data wrangling on a dataset 
 2. Navigate to the project directory:
    ```bash
    cd tmdb-movie-analysis
-
-3. Launch Jupyter Notebook:
+   ```
+3. Install Dependencies
+   ```bash
+   pip install pandas numpy matplotlib jupyter
+   ```
+5. Launch Jupyter Notebook:
    ```bash
    jupyter notebook
    ```
-4. Open and run the `analysis.ipynb` file.
+6. Open and run the `analysis.ipynb` file.
 
 ## Usage
 1. Ensure the dataset file `tmdb-movies.csv` is in the project directory.
